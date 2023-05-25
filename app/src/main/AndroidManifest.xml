@@ -27,6 +27,9 @@
         <activity android:name=".Female_Chest"/>
         <activity android:name=".Female_Legs"/>
         <activity android:name=".Female_Abs"/>
+        <activity android:name=".MealActivity"/>
+        <activity android:name=".Meal1Activity"/>
+        <activity android:name=".Meal2Activity"/>
     </application>
 
 </manifest>
