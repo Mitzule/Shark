@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shark</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FemaleExActivity"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/my_nav_layout">
+
+        <Button
+            android:id="@+id/go_to_main_activity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Main Activity"
+            android:layout_gravity="center"
+            android:onClick="goToMainActivity"/>
+
+        <Button
+            android:id="@+id/go_to_female_1_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hands"
+            android:layout_gravity="center"
+            android:onClick="goToFemale1Activity"/>
+
+        <Button
+            android:id="@+id/go_to_female_2_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_gravity="center"
+            android:onClick="goToFemale2Activity"/>
+
+        <Button
+            android:id="@+id/go_to_female_3_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Front"
+            android:layout_gravity="center"
+            android:onClick="goToFemale3Activity"/>
+
+        <Button
+            android:id="@+id/go_to_female_4_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Glutee"
+            android:layout_gravity="center"
+            android:onClick="goToFemale4Activity"/>
+
+        <Button
+            android:id="@+id/go_to_female_5_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Legs"
+            android:layout_gravity="center"
+            android:onClick="goToFemale5Activity"/>
+
+        <Button
+            android:id="@+id/go_to_female_6_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abs"
+            android:layout_gravity="center"
+            android:onClick="goToFemale6Activity"/>
+
+    </LinearLayout>
+
+    <!-- Navigation drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

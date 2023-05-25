@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/male_ex"
+        android:title="Male Exercices" />
+
+    <item
+        android:id="@+id/female_ex"
+        android:title="Female Exercices" />
+
+    <item
+        android:id="@+id/meals_diets"
+        android:title="Meals and Diets" />
+
+
+</menu>
