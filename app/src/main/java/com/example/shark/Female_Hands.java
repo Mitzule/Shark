@@ -32,7 +32,7 @@ public class Female_Hands
     }
 
     public void goToMainActivity(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, FemaleExActivity.class);
         startActivity(intent);
     }
 

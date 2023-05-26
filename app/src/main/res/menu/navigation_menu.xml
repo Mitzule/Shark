@@ -5,15 +5,15 @@
 
     <item
         android:id="@+id/male_ex"
-        android:title="Male Exercices" />
+        android:title="Calories Calculator" />
 
     <item
         android:id="@+id/female_ex"
-        android:title="Female Exercices" />
+        android:title="Exercises" />
 
     <item
         android:id="@+id/meals_diets"
-        android:title="Meals and Diets" />
+        android:title="Meals" />
 
 
 </menu>

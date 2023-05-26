@@ -17,14 +17,6 @@
         android:id="@+id/my_nav_layout">
 
         <Button
-            android:id="@+id/go_to_main_activity_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Go to Main Activity"
-            android:layout_gravity="center"
-            android:onClick="goToMainActivity"/>
-
-        <Button
             android:id="@+id/go_to_female_1_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
